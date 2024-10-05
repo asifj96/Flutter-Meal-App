@@ -22,7 +22,7 @@ class MealsScreen extends StatelessWidget {
           Text(
             'Uh oh ... nothing here!',
             style: Theme.of(context).textTheme.headlineLarge!.copyWith(
-                  color: Theme.of(context).colorScheme.onBackground,
+                  color: Theme.of(context).colorScheme.onSurface,
                 ),
           ),
           const SizedBox(height: 16),
